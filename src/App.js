@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
+  //JSX => JavaScript XML
   return (
-    <div className="App">
+/*  <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+       <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>      */ 
+    <div>
+        <h1>Hello Word!! \o</h1>
+        <p>Alguma coisa ai no meio</p>
+        <p>JSX => [J]ava[S]cript [X]ML</p>
     </div>
   );
 }
